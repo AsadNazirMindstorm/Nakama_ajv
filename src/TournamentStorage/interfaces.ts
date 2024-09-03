@@ -21,8 +21,8 @@ interface Holes {
 }
 
 interface Availability {
-  startDateTime: string;
-  endDateTime: string;
+  startDateTime: number;
+  endDateTime: number;
   totalTime: number;
   userPlayTime: number;
 }

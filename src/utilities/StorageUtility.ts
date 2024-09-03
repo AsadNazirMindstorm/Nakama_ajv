@@ -1,4 +1,4 @@
-class StorageUtility {
+export class StorageUtility {
     public writeStorage(userId:string | undefined, nk: nkruntime.Nakama, CollectionName: string, CollectionKey: string, Values: any) {
 
         let writeData: nkruntime.StorageWriteRequest =

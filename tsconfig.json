@@ -14,7 +14,9 @@
     "./src/utilities/StorageUtility.ts",
     "./src/constants.ts",
     "./src/TournamentStorage/interfaces.ts",
-    "./src/TournamentStorage/rpc.ts"
+    "./src/TournamentStorage/schemas.ts",
+    "./src/TournamentStorage/rpc.ts",
+    "./src/Logger.ts"
   ],
   "include": [
     "src/**/*",
